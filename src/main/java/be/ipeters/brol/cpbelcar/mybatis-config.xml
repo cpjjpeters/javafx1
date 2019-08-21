@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="be.belfius.ottoz.cpbelcar" />
+    </typeAliases>
+    <!-- <mappers>
+        <mapper resource="PersonMappers.xml"></mapper>
+        <mapper resource="OrderMappers.xml"></mapper>
+        <mapper resource="ModelMappers.xml"></mapper>
+        <mapper resource="ProductionMappers.xml"></mapper>
+        <mapper resource="ProductMappers.xml"></mapper>
+        <mapper resource="ModelProductMappers.xml"></mapper>
+
+        <mapper class="be.belfius.BelCar.mappers.AdminMapper" />
+        <mapper	class="be.belfius.ottoz.cpbelcar.mappers.ConsumerMapper" />
+        <mapper class="be.belfius.ottoz.cpbelcar.mappers.DealerMapper" />
+        <mapper class="be.belfius.ottoz.cpbelcar.mappers.EmployeeMapper" />
+        <mapper class="be.belfius.ottoz.cpbelcar.mappers.SupplierMapper" />
+        <mapper resource="mappers/ProductMapper.xml" />
+        <mapper resource="mappers/CarMapper.xml" />
+        <mapper resource="mappers/OrderMapper.xml" />
+        <mapper resource="mappers/ProductionMapper.xml" />
+    </mappers>
+ -->
+</configuration>
