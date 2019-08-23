@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <package name="be.belfius.ottoz.cpbelcar" />
+        <package name="be.ipeters.brol.cpbelcar" />
     </typeAliases>
     <!-- <mappers>
         <mapper resource="PersonMappers.xml"></mapper>
@@ -14,11 +14,11 @@
         <mapper resource="ProductMappers.xml"></mapper>
         <mapper resource="ModelProductMappers.xml"></mapper>
 
-        <mapper class="be.belfius.BelCar.mappers.AdminMapper" />
-        <mapper	class="be.belfius.ottoz.cpbelcar.mappers.ConsumerMapper" />
-        <mapper class="be.belfius.ottoz.cpbelcar.mappers.DealerMapper" />
-        <mapper class="be.belfius.ottoz.cpbelcar.mappers.EmployeeMapper" />
-        <mapper class="be.belfius.ottoz.cpbelcar.mappers.SupplierMapper" />
+<!--        <mapper class="be.ipeters.BelCar.mappers.AdminMapper" />-->
+        <mapper	class="be.ipeters.brol.cpbelcar.mappers.ConsumerMapper" />
+        <mapper class="be.ipeters.brol.cpbelcar.mappers.DealerMapper" />
+        <mapper class="be.ipeters.brol.cpbelcar.mappers.EmployeeMapper" />
+        <mapper class="be.ipeters.brol.cpbelcar.mappers.SupplierMapper" />
         <mapper resource="mappers/ProductMapper.xml" />
         <mapper resource="mappers/CarMapper.xml" />
         <mapper resource="mappers/OrderMapper.xml" />
